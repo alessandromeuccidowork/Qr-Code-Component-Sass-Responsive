@@ -1,0 +1,127 @@
+body {
+  background-color: hsl(212deg, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  font-size: 0.938rem;
+  color: hsl(220deg, 15%, 55%);
+}
+
+.container-card {
+  background-color: hsl(0deg, 0%, 100%);
+  display: inline-block;
+  width: 17.4%;
+  border-radius: 0.8rem;
+  margin: 5rem;
+  box-shadow: 0 -30em 3em rgba(0, 0, 0, 0.1), 0 0 0 0.5px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.134);
+}
+.container-card img {
+  width: 14rem;
+  border-radius: 0.3rem;
+  margin: 0.625rem 0.625rem 0 0.625rem;
+}
+.container-card .header {
+  margin: 1.2rem 1.5rem 0rem 1.5rem;
+}
+.container-card .header h1 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+.container-card .details {
+  margin: 0.8rem 1.5rem 2.5rem 1.5rem;
+}
+.container-card .details p {
+  margin: 0;
+}
+
+.attribution {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.attribution p {
+  position: absolute;
+  width: 100%;
+}
+.attribution p a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media (max-width: 1440px) {
+  .container-card {
+    background-color: hsl(0deg, 0%, 100%);
+    display: inline-block;
+    width: 19.4%;
+    border-radius: 0.8rem;
+    margin: 5rem;
+    box-shadow: 0 -30em 3em rgba(0, 0, 0, 0.1), 0 0 0 0.5px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.134);
+  }
+  .container-card img {
+    width: 12rem;
+    border-radius: 0.3rem;
+    margin: 0.625rem 0.625rem 0 0.625rem;
+  }
+}
+@media (max-width: 1096px) {
+  .container-card {
+    background-color: hsl(0deg, 0%, 100%);
+    display: inline-block;
+    width: 22.4%;
+    border-radius: 0.8rem;
+    margin: 5rem;
+    box-shadow: 0 -30em 3em rgba(0, 0, 0, 0.1), 0 0 0 0.5px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.134);
+  }
+  .container-card img {
+    width: 12rem;
+    border-radius: 0.3rem;
+    margin: 0.625rem 0.625rem 0 0.625rem;
+  }
+}
+@media (max-width: 955px) {
+  .container-card {
+    background-color: hsl(0deg, 0%, 100%);
+    display: inline-block;
+    width: 25.4%;
+    border-radius: 0.8rem;
+    margin: 5rem;
+    box-shadow: 0 -30em 3em rgba(0, 0, 0, 0.1), 0 0 0 0.5px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.134);
+  }
+  .container-card img {
+    width: 12rem;
+    border-radius: 0.3rem;
+    margin: 0.625rem 0.625rem 0 0.625rem;
+  }
+}
+@media (max-width: 832px) {
+  .container-card {
+    background-color: hsl(0deg, 0%, 100%);
+    display: inline-block;
+    width: 30.4%;
+    border-radius: 0.8rem;
+    margin: 5rem;
+    box-shadow: 0 -30em 3em rgba(0, 0, 0, 0.1), 0 0 0 0.5px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.134);
+  }
+  .container-card img {
+    width: 11rem;
+    border-radius: 0.3rem;
+    margin: 0.625rem 0.625rem 0 0.625rem;
+  }
+}
+@media (max-width: 643px) {
+  .container-card {
+    background-color: hsl(0deg, 0%, 100%);
+    display: inline-block;
+    width: 88.4%;
+    border-radius: 0.8rem;
+    margin: 5rem 0 5rem 0;
+    box-shadow: 0 -30em 3em rgba(0, 0, 0, 0.1), 0 0 0 0.5px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.134);
+  }
+  .container-card img {
+    width: 18.5rem;
+    border-radius: 0.3rem;
+    margin: 0.925rem 0.625rem 0 0.625rem;
+  }
+}/*# sourceMappingURL=index.css.map */

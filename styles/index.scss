@@ -1,0 +1,171 @@
+$white-color: hsl(0, 0%, 100%);
+$light-gray: hsl(212, 45%, 89%);
+$grayish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+
+$primary-color: hsl(228, 45%, 44%);
+
+$font-paragraph: 0.938rem;
+$font-stack: 'Outfit', sans-serif;
+
+$border-radius-card: 0.8rem;
+
+body {
+    background-color: $light-gray;
+    font-family: $font-stack;
+    text-align: center;
+    margin: 0;
+
+}
+
+p {
+    font-size: $font-paragraph;
+    color: $grayish-blue;
+}
+
+.container-card {
+    background-color: $white-color;
+    display: inline-block;
+    width: 17.4%;
+    border-radius: $border-radius-card;
+    margin: 5rem;
+    box-shadow:  0 -30em 3em rgba(0, 0, 0, 0.1), 
+                    0 0 0 0.5px rgb(255, 255, 255),
+                    0.3em 0.3em 1em rgba(0, 0, 0, 0.134);
+    
+    img {
+        width: 14rem;
+        border-radius: 0.3rem;
+        margin: 0.625rem 0.625rem 0 0.625rem;
+    }
+    
+    .header {
+        margin: 1.2rem 1.5rem 0rem 1.5rem;
+        
+        h1 {
+            font-size: 1.1rem;
+            margin: 0;
+        }
+    }
+    
+    .details {  
+        margin: 0.8rem 1.5rem 2.5rem 1.5rem;
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.attribution { 
+    position: relative;
+    display: inline-block;
+    // text-align: center;
+    width: 100%;
+
+    p {
+        position: absolute;
+        width: 100%;
+
+        a { 
+            color: $primary-color; 
+        }    
+    }
+} 
+
+    // Media-q
+
+@media (max-width:1440px) {
+    .container-card {
+        background-color: $white-color;
+        display: inline-block;
+        width: 19.4%;
+        border-radius: $border-radius-card;
+        margin: 5rem;
+        box-shadow:  0 -30em 3em rgba(0, 0, 0, 0.1), 
+                        0 0 0 0.5px rgb(255, 255, 255),
+                        0.3em 0.3em 1em rgba(0, 0, 0, 0.134);
+        
+        img {
+            width: 12rem;
+            border-radius: 0.3rem;
+            margin: 0.625rem 0.625rem 0 0.625rem;
+        }
+    }
+}
+
+@media (max-width:1096px) {
+    .container-card {
+        background-color: $white-color;
+        display: inline-block;
+        width: 22.4%;
+        border-radius: $border-radius-card;
+        margin: 5rem;
+        box-shadow:  0 -30em 3em rgba(0, 0, 0, 0.1), 
+                        0 0 0 0.5px rgb(255, 255, 255),
+                        0.3em 0.3em 1em rgba(0, 0, 0, 0.134);
+        
+        img {
+            width: 12rem;
+            border-radius: 0.3rem;
+            margin: 0.625rem 0.625rem 0 0.625rem;
+        }
+    }
+}
+
+@media (max-width:955px) {
+    .container-card {
+        background-color: $white-color;
+        display: inline-block;
+        width: 25.4%;
+        border-radius: $border-radius-card;
+        margin: 5rem;
+        box-shadow:  0 -30em 3em rgba(0, 0, 0, 0.1), 
+                        0 0 0 0.5px rgb(255, 255, 255),
+                        0.3em 0.3em 1em rgba(0, 0, 0, 0.134);
+        
+        img {
+            width: 12rem;
+            border-radius: 0.3rem;
+            margin: 0.625rem 0.625rem 0 0.625rem;
+        }
+    }
+}
+
+@media (max-width:832px) {
+    .container-card {
+        background-color: $white-color;
+        display: inline-block;
+        width: 30.4%;
+        border-radius: $border-radius-card;
+        margin: 5rem;
+        box-shadow:  0 -30em 3em rgba(0, 0, 0, 0.1), 
+                        0 0 0 0.5px rgb(255, 255, 255),
+                        0.3em 0.3em 1em rgba(0, 0, 0, 0.134);
+        
+        img {
+            width: 11rem;
+            border-radius: 0.3rem;
+            margin: 0.625rem 0.625rem 0 0.625rem;
+        }
+    }
+}
+
+@media (max-width:643px) {
+    .container-card {
+        background-color: $white-color;
+        display: inline-block;
+        width: 88.4%;
+        border-radius: $border-radius-card;
+        margin: 5rem 0 5rem 0;
+        box-shadow:  0 -30em 3em rgba(0, 0, 0, 0.1), 
+                        0 0 0 0.5px rgb(255, 255, 255),
+                        0.3em 0.3em 1em rgba(0, 0, 0, 0.134);
+        
+        img {
+            width: 18.5rem;
+            border-radius: 0.3rem;
+            margin: 0.925rem 0.625rem 0 0.625rem;
+        }
+    }
+}
