@@ -13,7 +13,7 @@ p {
 .container-card {
   background-color: hsl(0deg, 0%, 100%);
   display: inline-block;
-  width: 11.4%;
+  width: 23.4%;
   border-radius: 0.8rem;
   margin: 5rem;
   box-shadow: 0 -30em 3em rgba(0, 0, 0, 0.1), 0 0 0 0.5px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.134);
